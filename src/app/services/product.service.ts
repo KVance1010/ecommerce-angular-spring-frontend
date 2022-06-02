@@ -52,7 +52,7 @@ return this.httpClient.get<Product>(productUrl); }
 interface GetResponseProducts {
 _embedded: {
 products: Product[];
-},
+};
 page: {
 size: number,
 totalElements: number,
